@@ -46,3 +46,5 @@ step4.读取数据库msg消息修改状态status：1
 step5.但发送消息网络中断，通过定时任务查询状态为status：0的消息
 
 step6.抓取消息，重新投递
+
+## RabbitMQ的基础信息

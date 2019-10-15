@@ -25,7 +25,7 @@ public class TaskSchedulerConfig implements SchedulingConfigurer {
      * @Desc 指定100个任务线程 并注入容器
      * @Author LovingLiu
     */
-    @Bean(destroyMethod="shutdown")
+    @Bean
     public Executor taskScheduler(){
         return Executors.newScheduledThreadPool(100);
     }
